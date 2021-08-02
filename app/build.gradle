@@ -2,7 +2,9 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
 }
-
+ext {
+    SdkVersion = "1.0.0"
+}
 android {
     compileSdk 30
 
@@ -40,4 +42,5 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation ("com.emaple.image_slider:bookreadersdk:$SdkVersion")
 }

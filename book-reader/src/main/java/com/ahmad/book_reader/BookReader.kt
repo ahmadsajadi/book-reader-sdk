@@ -9,4 +9,12 @@ class BookReader {
     fun closeBook():String{
         return "book closed"
     }
+
+    fun readEpub():String{
+        return "read epub"
+    }
+
+    fun readPdf():String{
+        return "read pdf"
+    }
 }
